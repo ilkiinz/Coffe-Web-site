@@ -25,7 +25,7 @@ const Menu = () => {
       <h2 className="text-3xl font-bold mb-8 text-center">İçkiler</h2>
       <div className="flex flex-wrap justify-between gap-12 mb-16">
         {drinks.map(drink => (
-          <div key={drink.id} className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
+          <div key={drink.id} className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md w-full sm:w-1/2 md:w-1/3 lg:w-1/4  hover:scale-105 hover:bg-orange-100 transition-transform duration-700 ease-in-out">
             <div className="relative mx-4 mt-4 h-48 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
               <img
                 src={drink.image}
@@ -52,9 +52,9 @@ const Menu = () => {
 
       
       <h2 className="text-3xl font-bold mb-8 text-center">Sirniyyatlar</h2>
-      <div className="flex flex-wrap justify-between gap-12">
+      <div className="flex flex-wrap justify-center gap-32">
         {foods.map(food => (
-          <div key={food.id} className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
+          <div key={food.id} className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md w-full sm:w-1/2 md:w-1/3 lg:w-1/4 hover:scale-105 hover:bg-orange-100 transition-transform duration-700 ease-in-out">
             <div className="relative mx-4 mt-4 h-48 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
               <img
                 src={food.image}
