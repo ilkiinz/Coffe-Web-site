@@ -27,24 +27,24 @@ const Navbar = () => {
             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
           </svg>
         </button>
-        <div className={`fixed top-0 left-0 h-full w-64 bg-white shadow-md transform transition-transform ${isOpen ? "translate-x-0" : "-translate-x-full"} md:hidden z-20`}>
+        <div className={`fixed top-0 left-0 h-full w-64 bg-neutral-700 shadow-md transform transition-transform ${isOpen ? "translate-x-0" : "-translate-x-full"} md:hidden z-20`}>
           <button onClick={toggleMenu} className="absolute top-4 right-4 text-gray-500 hover:text-blue-500">
             <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>
-          <ul className="flex flex-col mt-16 space-y-2">
+          <ul className="bg-neutral-700 h-screen flex flex-col mt-16 space-y-2">
             <li>
-              <a href="#" className="block py-2 px-4 text-gray-900 rounded hover:bg-gray-100">Home</a>
+              <a href="#" className="block py-2 px-4 text-4xl text-teal-500 rounded hover:bg-gray-100">Home</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-4 text-gray-900 rounded hover:bg-gray-100">Services</a>
+              <a href="#" className="block py-2 px-4 text-4xl text-teal-500 rounded hover:bg-gray-100">About</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-4 text-gray-900 rounded hover:bg-gray-100">Pricing</a>
+              <a href="#" className="block py-2 px-4 text-4xl text-teal-500 rounded hover:bg-gray-100">Menu</a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-4 text-gray-900 rounded hover:bg-gray-100">Contact</a>
+              <a href="#" className="block py-2 px-4 text-4xl text-teal-500 rounded hover:bg-gray-100">Contact</a>
             </li>
           </ul>
         </div>
