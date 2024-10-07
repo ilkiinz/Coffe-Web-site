@@ -6,7 +6,9 @@ export default {
   ],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {fontFamily: {
+      roboto: ['Roboto', 'sans-serif'], // Roboto'yu tanımlıyoruz
+    }},
   },
   plugins: [],
 }
