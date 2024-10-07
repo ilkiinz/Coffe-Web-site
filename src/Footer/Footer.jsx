@@ -7,22 +7,22 @@ const Footer = () => {
         <nav class="flex flex-wrap justify-center -mx-5 -my-2">
 
            <div class="px-5 py-2">
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
+                <a href="#" class="text-base leading-6 font-medium hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                     Home
                 </a>
             </div>
             <div class="px-5 py-2">
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
+                <a href="#" class="text-base leading-6 font-medium hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                     About
                 </a>
             </div>
             <div class="px-5 py-2">
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
+                <a href="#" class="text-base leading-6 font-medium hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                     Menu
                 </a>
             </div>
             <div class="px-5 py-2">
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
+                <a href="#" class="text-base leading-6 font-medium hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                     Contact
                 </a>
             </div>
@@ -48,7 +48,7 @@ const Footer = () => {
             </a>
           
         </div>
-        <p class="mt-8 text-base leading-6 text-center text-gray-400">
+        <p class="mt-8 text-base leading-6 text-center text-gray-700">
             © 2024 Nuranno Cooffe, Inc. All rights reserved.
         </p>
     </div>
